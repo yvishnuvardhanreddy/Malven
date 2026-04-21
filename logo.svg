@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" role="img" aria-label="Malven Architects and Interiors">
+  <title>Malven Architects &amp; Interiors</title>
+
+  <!--
+    Peaks mark: three overlapping chevrons, centre tallest.
+    Thick stroke, flat miter joins, no horizontal bar — matches the original logo's "AVA" monogram.
+  -->
+  <g fill="none" stroke="#f0ede8" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Left chevron -->
+    <path d="M 170 170 L 240 66 L 310 170"/>
+    <!-- Right chevron -->
+    <path d="M 370 170 L 440 66 L 510 170"/>
+    <!-- Centre chevron — tallest, drawn last so it overlays -->
+    <path d="M 250 170 L 340 30 L 430 170"/>
+  </g>
+
+  <!-- Thick horizontal baseline tying the three peaks together -->
+  <rect x="170" y="172" width="340" height="6" fill="#f0ede8"/>
+
+  <!--
+    MALVEN wordmark
+    Bebas Neue loaded from the page font stack; Impact / Arial Black as fallbacks.
+  -->
+  <text x="340" y="280"
+        text-anchor="middle"
+        font-family="'Bebas Neue', 'Arial Black', 'Impact', sans-serif"
+        font-size="120"
+        font-weight="400"
+        letter-spacing="6"
+        fill="#f0ede8">MALVEN</text>
+
+  <!-- Thin divider line -->
+  <rect x="130" y="310" width="420" height="3" fill="#f0ede8"/>
+
+  <!-- Subtitle -->
+  <text x="340" y="350"
+        text-anchor="middle"
+        font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+        font-size="24"
+        font-weight="500"
+        letter-spacing="12"
+        fill="#f0ede8">ARCHITECTS &amp; INTERIORS</text>
+
+  <!-- Italic tagline -->
+  <text x="410" y="402"
+        text-anchor="middle"
+        font-family="'Cormorant Garamond', 'Garamond', 'Times New Roman', serif"
+        font-size="30"
+        font-style="italic"
+        font-weight="500"
+        fill="#f0ede8">Space Reimagined</text>
+</svg>
